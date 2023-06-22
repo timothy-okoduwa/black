@@ -1,0 +1,14 @@
+.texture{
+    background-color: black;
+}
+.kiru{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.heightss{
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
