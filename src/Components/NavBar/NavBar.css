@@ -55,8 +55,14 @@
   font-family: Mulish;
   font-weight: 700;
 }
-
+.holy {
+  display: none;
+  color: #ed1b61;
+}
 @media screen and (max-width: 991px) {
+  .holy {
+    display: block;
+  }
   .lowe_screen {
     padding-bottom: 20px;
   }
@@ -64,18 +70,20 @@
     padding-top: 20px;
   }
   .widdd {
-    /* background-color: green; */
+    background-color: white;
+    margin-top: 20px;
+    padding-left: 15px !important;
     width: 100%;
     display: flex;
     justify-content: space-around;
     font-size: 18px;
     font-family: Mulish;
     font-weight: 600;
-    color: white !important;
+    color: black !important;
   }
   .but_Holder {
     width: 100%;
-    /* background-color: green; */
+    display: none;
     padding-bottom: 10px;
   }
   .button_nav {

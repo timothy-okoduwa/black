@@ -3,7 +3,7 @@ import './NavBar.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import a from '../images/logo1.svg'
+import a from '../images/logo1.svg';
 const NavBar = () => {
   return (
     <div>
@@ -20,6 +20,7 @@ const NavBar = () => {
               </div>
             </div>
           </Navbar.Brand>
+
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             className="bg-light"
@@ -31,6 +32,7 @@ const NavBar = () => {
               <div className="lowe_screen">Save</div>
               <div className="lowe_screen">Invest </div>
               <div className="lowe_screen">Grow</div>
+              <div className="lowe_screen holy">Join waitlist</div>
             </Nav>
             <div className="but_Holder">
               <div className="button_nav">

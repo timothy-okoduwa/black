@@ -1,14 +1,344 @@
-.texture{
-    background-color: black;
+.texture {
+  background-color: black;
 }
-.kiru{
+.kiru {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.heightss {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.lock {
+  color: #fff;
+  font-size: 64px;
+  font-family: Russo One;
+}
+.we_make {
+  color: #fff;
+  font-size: 20px;
+  font-family: Mulish;
+  line-height: 170%;
+  width: 83%;
+}
+.google_app {
+  display: flex;
+  margin-top: 30px;
+}
+.btns {
+  cursor: pointer;
+  width: 30%;
+}
+.sub_nav {
+  border-radius: 50px;
+  background: var(--grey-3, #f5f5f5);
+  width: 100%;
+  height: 75px;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+.seven_holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--black, #000);
+  text-align: center;
+  font-size: 19px;
+  font-family: Mulish;
+  font-weight: 600;
+  height: 100%;
+}
+.tabs {
+  border-radius: 50px;
+  background: transparent;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+.bank {
+  background: var(--pink, #fc43aa);
+  color: white;
+}
+.orange {
+  background: #ff6700;
+  color: white;
+}
+.earn {
+  background: #000;
+  color: white;
+}
+.save {
+  background: #ed1b61;
+  color: white;
+}
+.budget {
+  background: #bcee4b;
+  color: white;
+}
+.invest {
+  background: #131a59;
+  color: white;
+}
+.loan {
+  background: #9b37e8;
+  color: white;
+}
+.wrmg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.mbm {
+  color: var(--black, #000);
+  font-size: 64px;
+  font-family: Russo One;
+}
+.down {
+  color: var(--black, #000);
+  font-size: 19px;
+  font-family: Mulish;
+  line-height: 170%;
+  width: 80%;
+  margin-top: 15px;
+}
+.checkss {
+  color: #13843b;
+  font-size: 10px;
+}
+.clientel {
+  margin-top: 100px;
+  background-color: #f5f5f5;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+.built {
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-family: Russo One;
+}
+.fundd {
+  color: #151414;
+  text-align: center;
+  font-size: 20px;
+  font-family: Mulish;
+  line-height: 160%;
+}
+.centt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  height: 100%;
+  /* background-color: red; */
+}
+.black-and-white-image {
+  filter: grayscale(100%);
+}
+.relie {
+  color: var(--black, #000);
+  text-align: center;
+  font-size: 48px;
+  font-family: Russo One;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.dsf {
+  display: flex;
+  justify-content: center;
+}
+.r_black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #000;
+}
+.advv {
+  color: var(--black, #000);
+  text-align: center;
+  font-size: 24px;
+  font-family: Russo One;
+  margin-top: 45px;
+}
+.hooo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* background-color: red; */
+}
+.holdsd {
+  margin-top: 10px;
+  color: var(--black, #000);
+  text-align: center;
+  font-size: 18px;
+  font-family: Mulish;
+  width: 75%;
+  /* background-color: blue; */
+}
+.kiki {
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+  width: 100%;
+}
+.lil_bit {
+  width: 50%;
+}
+.aiai {
+  margin-top: 33px !important;
+}
+.opps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wait {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.mmm {
+  margin-left: 10px;
+}
+@media screen and (min-width: 991px) {
+  .hid_for_web {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .google_app {
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+  }
+  .mmm {
+    margin-top: 18px;
+    margin-left: 0px;
+  }
+  .we_make {
+    color: #fff;
+    font-size: 18px;
+    font-family: Mulish;
+    line-height: 170%;
+    text-align: center;
+    width: 100%;
+  }
+  .lock {
+    color: #fff;
+    font-size: 48px;
+    font-family: Russo One;
+    text-align: center;
+  }
+  .clientel {
+    margin-top: 0px;
+    background-color: #f5f5f5;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+  .opps {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .advv {
+    color: var(--black, #000);
+    text-align: start;
+    font-size: 24px;
+    font-family: Russo One;
+    margin-top: 10px;
+  }
+  .hooo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .holdsd {
+    margin-top: 10px;
+    color: var(--black, #000);
+    text-align: start;
+    font-size: 18px;
+    font-family: Mulish;
+    width: 100%;
+    /* background-color: blue; */
+  }
+  .r_black {
+    display: flex;
     justify-content: center;
-    height: 100%;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+  .hidden {
+    display: none;
+  }
 }
-.heightss{
-   padding-top: 60px;
-   padding-bottom: 60px;
+.ones {
+  background-color: #fdf8f8;
+  padding-top: 35px;
+  /* padding-bottom: 25px; */
+}
+.twos {
+  background-color: #fcfef6;
+  padding-top: 35px;
+  /* padding-bottom: 25px; */
+}
+.threes {
+  background-color: #fffef4;
+  padding-top: 35px;
+  /* padding-bottom: 25px; */
+}
+.fours {
+  background-color: #fff7e6;
+  padding-top: 35px;
+  /* padding-bottom: 25px; */
+}
+.fives {
+  background-color: #f3f4f7;
+  padding-top: 35px;
+  /* padding-bottom: 25px; */
+}
+.six {
+  background-color: #fcf6ff;
+  padding-top: 35px;
+  /* padding-bottom: 25px; */
+}
+.sevsen {
+  background-color: #fff7f2;
+  padding-top: 35px;
+  /* padding-bottom: 25px; */
+}
+.mobb {
+  color: var(--black, #000);
+  font-size: 36px;
+  font-family: Russo One;
+}
+.opp {
+  color: var(--black, #000);
+  font-size: 16px;
+  font-family: Mulish;
+  line-height: 170%;
+  margin-top: 15px;
+  width: 80%;
 }
