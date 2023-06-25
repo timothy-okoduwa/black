@@ -29,7 +29,11 @@ const SwitchHolder = ({ step, setStep }) => {
     }
   };
 
-  return <div className="mt-5">{renderForm()}</div>;
+  return (
+    <div className="mt-5" id="earn">
+      {renderForm()}
+    </div>
+  );
 };
 
 export default SwitchHolder;

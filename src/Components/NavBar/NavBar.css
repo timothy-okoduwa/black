@@ -11,6 +11,7 @@
   font-family: Mulish;
   font-weight: 600;
   color: white !important;
+  cursor: pointer;
 }
 .but_Holder {
   width: 30%;
@@ -59,6 +60,7 @@
   display: none;
   color: #ed1b61;
 }
+
 @media screen and (max-width: 991px) {
   .holy {
     display: block;

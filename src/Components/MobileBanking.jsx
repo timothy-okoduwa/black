@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SwitchHolder from './SwitchHolder';
 
-const MobileBanking = () => {
-  const [step, setStep] = useState(1);
+const MobileBanking = ({ step, setStep }) => {
+  // const [step, setStep] = useState(1);
 
   const clickk = (targetStep) => {
     setStep(targetStep);

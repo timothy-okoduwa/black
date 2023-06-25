@@ -32,7 +32,7 @@ const ShowMobile = () => {
           </div>
         </div>
       </div>
-      <div className="twos">
+      <div className="twos" id="scott">
         <div className="container">
           <div>
             <div className="row ">
@@ -55,7 +55,7 @@ const ShowMobile = () => {
           </div>
         </div>
       </div>
-      <div className="threes">
+      <div className="threes" id="scott2">
         <div className="container">
           <div>
             <div className="row ">
@@ -101,7 +101,7 @@ const ShowMobile = () => {
           </div>
         </div>
       </div>
-      <div className="fives">
+      <div className="fives" id="scott3">
         <div className="container">
           <div>
             <div className="row ">
@@ -147,7 +147,7 @@ const ShowMobile = () => {
           </div>
         </div>
       </div>
-      <div className="sevsen">
+      <div className="sevsen" id="scott4">
         <div className="container">
           <div>
             <div className="row ">
