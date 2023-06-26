@@ -62,7 +62,7 @@ const Reliable = () => {
                 </div>
 
                 <div>
-                  <div className="advv">24/7 supportn</div>
+                  <div className="advv">24/7 support</div>
                   <div className="kiki">
                     <div className="holdsd">
                       Technical + human support available on a daily basis 24/7

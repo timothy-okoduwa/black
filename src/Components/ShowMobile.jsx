@@ -9,8 +9,8 @@ import sev from './images/seven.png';
 import { AiOutlineCheck } from 'react-icons/ai';
 const ShowMobile = () => {
   return (
-    <div>
-      <div className="ones">
+    <div className="container">
+      <div className="ones mt-3" id="scott0">
         <div className="container">
           <div>
             <div className="row ">
@@ -32,7 +32,7 @@ const ShowMobile = () => {
           </div>
         </div>
       </div>
-      <div className="twos" id="scott">
+      <div className="twos mt-3" id="scott">
         <div className="container">
           <div>
             <div className="row ">
@@ -55,7 +55,7 @@ const ShowMobile = () => {
           </div>
         </div>
       </div>
-      <div className="threes" id="scott2">
+      <div className="threes mt-3" id="scott2">
         <div className="container">
           <div>
             <div className="row ">
@@ -78,7 +78,7 @@ const ShowMobile = () => {
           </div>
         </div>
       </div>
-      <div className="fours">
+      <div className="fours mt-3">
         <div className="container">
           <div>
             <div className="row ">
@@ -101,7 +101,7 @@ const ShowMobile = () => {
           </div>
         </div>
       </div>
-      <div className="fives" id="scott3">
+      <div className="fives mt-3" id="scott3">
         <div className="container">
           <div>
             <div className="row ">
@@ -124,14 +124,16 @@ const ShowMobile = () => {
           </div>
         </div>
       </div>
-      <div className="six">
+      <div className="six mt-3">
         <div className="container">
           <div>
             <div className="row ">
               <div className="col-12 col-lg-6 mb-5">
                 <div>
-                  <div className="mobb">Loan & Debt Management</div>
-                  <div className="opp">
+                  <div className="mobb" style={{ color: 'black' }}>
+                    Loan & Debt Management
+                  </div>
+                  <div className="opp" style={{ color: 'black' }}>
                     Effortlessly track loans, manage debts, and stay on top of
                     your financial obligations. Take control of your finances
                     for a debt-free future.
@@ -147,7 +149,7 @@ const ShowMobile = () => {
           </div>
         </div>
       </div>
-      <div className="sevsen" id="scott4">
+      <div className="sevsen mt-3" id="scott4">
         <div className="container">
           <div>
             <div className="row ">

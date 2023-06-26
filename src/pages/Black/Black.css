@@ -316,47 +316,55 @@
   }
 }
 .ones {
-  background-color: #fdf8f8;
+  background-color: #ed1b61;
   padding-top: 35px;
   /* padding-bottom: 25px; */
+  border-radius: 40px;
 }
 .twos {
-  background-color: #fcfef6;
+  background-color: #000000;
   padding-top: 35px;
   /* padding-bottom: 25px; */
+  border-radius: 40px;
 }
 .threes {
-  background-color: #fffef4;
+  background-color: #50a3fc;
   padding-top: 35px;
   /* padding-bottom: 25px; */
+  border-radius: 40px;
 }
 .fours {
-  background-color: #fff7e6;
+  background-color: #131a59;
   padding-top: 35px;
   /* padding-bottom: 25px; */
+  border-radius: 40px;
 }
 .fives {
-  background-color: #f3f4f7;
+  background-color: #9b37e8;
   padding-top: 35px;
   /* padding-bottom: 25px; */
+  border-radius: 40px;
 }
 .six {
-  background-color: #fcf6ff;
+  background-color: #bcee4b;
   padding-top: 35px;
   /* padding-bottom: 25px; */
+  border-radius: 40px;
+  color: #000000 !important;
 }
 .sevsen {
-  background-color: #fff7f2;
+  background-color: #ff6700;
   padding-top: 35px;
   /* padding-bottom: 25px; */
+  border-radius: 40px;
 }
 .mobb {
-  color: var(--black, #000);
+  color: var(--black, #ffffff);
   font-size: 36px;
   font-family: Russo One;
 }
 .opp {
-  color: var(--black, #000);
+  color: var(--black, #ffffff);
   font-size: 16px;
   font-family: Mulish;
   line-height: 170%;
