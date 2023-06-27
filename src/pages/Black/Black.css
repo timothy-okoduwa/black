@@ -227,6 +227,10 @@
   }
 }
 @media screen and (max-width: 991px) {
+  .btns {
+    cursor: pointer;
+    width: 50%;
+  }
   .niboo {
     display: none !important;
   }
