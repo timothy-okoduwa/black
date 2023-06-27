@@ -2,8 +2,26 @@ import React, { useState } from 'react';
 import fiv from './images/fiveus.png';
 import 'react-phone-number-input/style.css';
 import PhoneInput from 'react-phone-number-input';
+import { getCountryCallingCode } from 'react-phone-number-input';
+import flags from 'react-phone-number-input/flags';
 const WaitList = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
+  const [email, setEmail] = useState('');
+  const [emailError, setEmailError] = useState('');
+
+  const validateEmail = () => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email) {
+      setEmailError('Email is required');
+    } else if (!regex.test(email)) {
+      setEmailError('Invalid email format');
+    } else {
+      // Email is valid
+      setEmailError('');
+      // Perform further actions, such as submitting the form
+    }
+  };
+
   return (
     <div>
       <div className="troubb" id="waitlist">
@@ -16,7 +34,7 @@ const WaitList = () => {
               </div>
             </div>
             <div className="muttt">
-              <img src={fiv} alt="" style={{ width: '100%' }} />
+              <img src={fiv} alt="" style={{ width: '70%' }} />
             </div>
 
             <div className="for_form">
@@ -29,7 +47,6 @@ const WaitList = () => {
               <div>
                 <div className="mb-4">
                   <div className="label">Phone number</div>
-                  {/* <input type="text" className="inppp" /> */}
                   <PhoneInput
                     defaultCountry="CM"
                     value={phoneNumber}
@@ -42,12 +59,20 @@ const WaitList = () => {
               <div>
                 <div className="mb-4">
                   <div className="label">Email Address</div>
-                  <input type="text" className="inppp" />
+                  <input
+                    type="email"
+                    className="inppp"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                  />
+                  {emailError && <div className="error">{emailError}</div>}
                 </div>
               </div>
               <div>
                 <div className="mb-4">
-                  <button className="bububu">Join Waitlist</button>
+                  <button className="bububu" onClick={validateEmail}>
+                    Join Waitlist
+                  </button>
                 </div>
               </div>
             </div>

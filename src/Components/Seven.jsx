@@ -1,5 +1,5 @@
 import React from 'react';
-import m from './images/fo.png';
+import m from './images/Grow.png';
 import { AiOutlineCheck } from 'react-icons/ai';
 import { Slide } from 'react-awesome-reveal';
 const Seven = () => {

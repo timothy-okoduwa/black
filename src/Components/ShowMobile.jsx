@@ -1,11 +1,11 @@
 import React from 'react';
-import m from './images/ones.png';
-import me from './images/twos.png';
-import th from './images/threes.png';
-import f from './images/fours.png';
-import fi from './images/fives.png';
-import six from './images/six.png';
-import sev from './images/seven.png';
+import m from './images/mbank.png';
+import me from './images/mearn.png';
+import th from './images/msave.png';
+import f from './images/minvest.png';
+import fi from './images/mloan.png';
+import six from './images/mbudgeet.png';
+import sev from './images/mgrow.png';
 import { AiOutlineCheck } from 'react-icons/ai';
 const ShowMobile = () => {
   return (

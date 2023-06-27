@@ -79,7 +79,7 @@
   color: white;
 }
 .save {
-  background: #ed1b61;
+  background: #50a3fc;
   color: white;
 }
 .budget {
@@ -246,9 +246,9 @@
     text-align: center;
     color: white;
   }
-  .muttt {
+  /* .muttt {
     display: none;
-  }
+  } */
   .google_app {
     display: flex;
     flex-direction: column;
@@ -400,6 +400,8 @@
 }
 .muttt {
   margin-top: 55px;
+  display: flex;
+  justify-content: center;
 }
 .for_form {
   /* background-color: red; */
@@ -481,4 +483,16 @@
   height: 80%;
   display: flex;
   align-items: flex-end;
+}
+.error {
+  background: var(--red, #ed1b614c);
+  margin-top: 20px;
+  height: 40px;
+  font-size: 16px;
+  font-family: Open Sans;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }

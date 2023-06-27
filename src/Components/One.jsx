@@ -1,5 +1,5 @@
 import React from 'react';
-import m from './images/gps.png';
+import m from './images/bank.png';
 import { Slide } from 'react-awesome-reveal';
 const One = () => {
   return (
