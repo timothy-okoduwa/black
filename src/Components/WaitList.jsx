@@ -34,7 +34,11 @@ const WaitList = () => {
               </div>
             </div>
             <div className="muttt">
-              <img src={fiv} alt="" style={{ width: '70%' }} />
+              <img
+                src={fiv}
+                alt=""
+                style={{ width: '70%', objectFit: 'contain' }}
+              />
             </div>
 
             <div className="for_form">
