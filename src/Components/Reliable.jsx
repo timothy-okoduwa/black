@@ -6,7 +6,7 @@ const Reliable = () => {
   return (
     <div className="container pb-5">
       <div>
-        <div className="relie">Reliable, secure & Compliant</div>
+        <div className="relie">Reliable, Secure & Compliant</div>
       </div>
       <div className="">
         <div className="row">

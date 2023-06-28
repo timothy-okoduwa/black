@@ -30,7 +30,7 @@
 }
 .btns {
   cursor: pointer;
-  width: 30%;
+  width: 40%;
 }
 .sub_nav {
   border-radius: 50px;
@@ -67,7 +67,7 @@
   transition: background 0.3s ease-in-out;
 }
 .bank {
-  background: var(--pink, #fc43aa);
+  background: var(--pink, #ed1b61);
   color: white;
 }
 .orange {
@@ -449,9 +449,11 @@
 .PhoneInputCountry {
   border-right: 1px solid var(--grey-3, #f5f5f5) !important;
   background: var(--grey-2, #eee) !important;
-  width: 110px;
+  width: 80px;
   height: 100%;
-  padding-left: 30px;
+  /* padding-left: 10px; */
+  display: flex;
+  justify-content: center;
 }
 .PhoneInputInput {
   height: 40px;

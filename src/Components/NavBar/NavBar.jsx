@@ -8,11 +8,11 @@ import { Link as ScrollLink } from 'react-scroll';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 import { BsGlobe } from 'react-icons/bs';
-const item = [{ language: 'EN' }, { language: 'CM' }];
+// const item = [{ language: 'EN' }, { language: 'CM' }];
 
 const NavBar = ({ step, setStep }) => {
   const [isMobile, setIsMobile] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState('EN');
+  // const [selectedLanguage, setSelectedLanguage] = useState('EN');
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 991);
@@ -58,9 +58,9 @@ const NavBar = ({ step, setStep }) => {
   const growwww = () => {
     setStep(7);
   };
-  const handleLanguageChange = (language) => {
-    setSelectedLanguage(language);
-  };
+  // const handleLanguageChange = (language) => {
+  //   setSelectedLanguage(language);
+  // };
 
   return (
     <div>
@@ -160,7 +160,7 @@ const NavBar = ({ step, setStep }) => {
             <div className="but_Holder">
               <div className="button_nav">
                 <div>
-                  <Dropdown>
+                  {/* <Dropdown>
                     <Dropdown.Toggle
                       className="language_switch"
                       id="dropdown-basic"
@@ -179,15 +179,12 @@ const NavBar = ({ step, setStep }) => {
                         </Dropdown.Item>
                       ))}
                     </Dropdown.Menu>
-                  </Dropdown>
-                  {/* <button
-                    className="language_switch"
-                   
-                  >
+                  </Dropdown> */}
+                  <button className="language_switch">
                     {' '}
-                    <BsGlobe />
+                    <BsGlobe className="mx-1" />
                     EN
-                  </button> */}
+                  </button>
                 </div>
 
                 <ScrollLink

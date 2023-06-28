@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 import fiv from './images/fiveus.png';
 import 'react-phone-number-input/style.css';
 import PhoneInput from 'react-phone-number-input';
-import { getCountryCallingCode } from 'react-phone-number-input';
-import flags from 'react-phone-number-input/flags';
+// import Input, {
+//   getCountries,
+//   getCountryCallingCode,
+// } from 'react-phone-number-input/input';
+import countryNames from 'react-phone-number-input/locale/en';
 const WaitList = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
   const [email, setEmail] = useState('');
@@ -52,6 +55,8 @@ const WaitList = () => {
                 <div className="mb-4">
                   <div className="label">Phone number</div>
                   <PhoneInput
+                    international
+                    countryCallingCodeEditable={false}
                     defaultCountry="CM"
                     value={phoneNumber}
                     onChange={setPhoneNumber}
