@@ -481,10 +481,11 @@
   margin-top: 10px;
 }
 .ghgh {
-  width: 130px;
+  width: 180px;
   height: 80%;
   display: flex;
   align-items: flex-end;
+  /* background-color: red; */
 }
 .error {
   background: var(--red, #ed1b614c);
