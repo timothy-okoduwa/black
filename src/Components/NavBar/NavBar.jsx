@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import a from '../images/logo1.svg';
 import { Link as ScrollLink } from 'react-scroll';
-import Dropdown from 'react-bootstrap/Dropdown';
+// import Dropdown from 'react-bootstrap/Dropdown';
 
 import { BsGlobe } from 'react-icons/bs';
 // const item = [{ language: 'EN' }, { language: 'CM' }];
