@@ -23,8 +23,8 @@ const ShowMobile = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-lg-6">
-                <div className="px-5 d-flex justify-content-center">
+              <div className="col-12 col-lg-6 ">
+                <div className="px-5 d-flex justify-content-center ">
                   <img
                     src={m}
                     alt=""
