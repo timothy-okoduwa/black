@@ -28,7 +28,7 @@ const ShowMobile = () => {
                   <img
                     src={m}
                     alt=""
-                    style={{ width: '100%', objectFit: 'cover' }}
+                    style={{ width: '100%', objectFit: 'contain' }}
                   />
                 </div>
               </div>
@@ -55,7 +55,7 @@ const ShowMobile = () => {
                   <img
                     src={me}
                     alt=""
-                    style={{ width: '100%', objectFit: 'cover' }}
+                    style={{ width: '100%', objectFit: 'contain' }}
                   />
                 </div>
               </div>
@@ -82,7 +82,7 @@ const ShowMobile = () => {
                   <img
                     src={th}
                     alt=""
-                    style={{ width: '100%', objectFit: 'cover' }}
+                    style={{ width: '100%', objectFit: 'contain' }}
                   />
                 </div>
               </div>
@@ -109,7 +109,7 @@ const ShowMobile = () => {
                   <img
                     src={f}
                     alt=""
-                    style={{ width: '100%', objectFit: 'cover' }}
+                    style={{ width: '100%', objectFit: 'contain' }}
                   />
                 </div>
               </div>
@@ -136,7 +136,7 @@ const ShowMobile = () => {
                   <img
                     src={fi}
                     alt=""
-                    style={{ width: '100%', objectFit: 'cover' }}
+                    style={{ width: '100%', objectFit: 'contain' }}
                   />
                 </div>
               </div>
@@ -165,7 +165,7 @@ const ShowMobile = () => {
                   <img
                     src={six}
                     alt=""
-                    style={{ width: '100%', objectFit: 'cover' }}
+                    style={{ width: '100%', objectFit: 'contain' }}
                   />
                 </div>
               </div>
@@ -195,7 +195,7 @@ const ShowMobile = () => {
                   <img
                     src={sev}
                     alt=""
-                    style={{ width: '100%', objectFit: 'cover' }}
+                    style={{ width: '100%', objectFit: 'contain' }}
                   />
                 </div>
               </div>
