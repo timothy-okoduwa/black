@@ -25,7 +25,11 @@ const ShowMobile = () => {
               </div>
               <div className="col-12 col-lg-6">
                 <div className="px-5 d-flex justify-content-center">
-                  <img src={m} alt="" style={{ width: '100%' }} />
+                  <img
+                    src={m}
+                    alt=""
+                    style={{ width: '100%', objectFit: 'cover' }}
+                  />
                 </div>
               </div>
             </div>
@@ -48,7 +52,11 @@ const ShowMobile = () => {
               </div>
               <div className="col-12 col-lg-6">
                 <div className="px-5 d-flex justify-content-center">
-                  <img src={me} alt="" style={{ width: '100%' }} />
+                  <img
+                    src={me}
+                    alt=""
+                    style={{ width: '100%', objectFit: 'cover' }}
+                  />
                 </div>
               </div>
             </div>
@@ -71,7 +79,11 @@ const ShowMobile = () => {
               </div>
               <div className="col-12 col-lg-6">
                 <div className="px-5 d-flex justify-content-center">
-                  <img src={th} alt="" style={{ width: '100%' }} />
+                  <img
+                    src={th}
+                    alt=""
+                    style={{ width: '100%', objectFit: 'cover' }}
+                  />
                 </div>
               </div>
             </div>
@@ -94,7 +106,11 @@ const ShowMobile = () => {
               </div>
               <div className="col-12 col-lg-6">
                 <div className="px-5 d-flex justify-content-center">
-                  <img src={f} alt="" style={{ width: '100%' }} />
+                  <img
+                    src={f}
+                    alt=""
+                    style={{ width: '100%', objectFit: 'cover' }}
+                  />
                 </div>
               </div>
             </div>
@@ -117,7 +133,11 @@ const ShowMobile = () => {
               </div>
               <div className="col-12 col-lg-6">
                 <div className="px-5 d-flex justify-content-center">
-                  <img src={fi} alt="" style={{ width: '100%' }} />
+                  <img
+                    src={fi}
+                    alt=""
+                    style={{ width: '100%', objectFit: 'cover' }}
+                  />
                 </div>
               </div>
             </div>
@@ -142,7 +162,11 @@ const ShowMobile = () => {
               </div>
               <div className="col-12 col-lg-6">
                 <div className="px-5 d-flex justify-content-center">
-                  <img src={six} alt="" style={{ width: '100%' }} />
+                  <img
+                    src={six}
+                    alt=""
+                    style={{ width: '100%', objectFit: 'cover' }}
+                  />
                 </div>
               </div>
             </div>
@@ -168,7 +192,11 @@ const ShowMobile = () => {
               </div>
               <div className="col-12 col-lg-6">
                 <div className="px-5 d-flex justify-content-center ">
-                  <img src={sev} alt="" style={{ width: '100%' }} />
+                  <img
+                    src={sev}
+                    alt=""
+                    style={{ width: '100%', objectFit: 'cover' }}
+                  />
                 </div>
               </div>
             </div>
