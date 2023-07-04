@@ -499,3 +499,6 @@
   align-items: center;
   border-radius: 10px;
 }
+.disabled {
+  cursor: not-allowed;
+}

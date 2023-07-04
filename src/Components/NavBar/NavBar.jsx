@@ -84,7 +84,7 @@ const NavBar = ({ step, setStep }) => {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto widdd">
-              <ScrollLink
+              {/* <ScrollLink
                 activeClass="active"
                 to={getScrollToValue0()}
                 spy={true}
@@ -95,9 +95,9 @@ const NavBar = ({ step, setStep }) => {
                 onClick={earnnn0}
               >
                 <div className="lowe_screen also">Mobile Wallet</div>
-              </ScrollLink>
+              </ScrollLink> */}
 
-              <ScrollLink
+              {/* <ScrollLink
                 activeClass="active"
                 to={getScrollToValue()}
                 spy={true}
@@ -108,8 +108,8 @@ const NavBar = ({ step, setStep }) => {
                 onClick={earnnn}
               >
                 <div className="lowe_screen">Earn</div>
-              </ScrollLink>
-              <ScrollLink
+              </ScrollLink> */}
+              {/* <ScrollLink
                 activeClass="active"
                 to={getScrollToValue2()}
                 spy={true}
@@ -120,8 +120,8 @@ const NavBar = ({ step, setStep }) => {
                 onClick={savvvv}
               >
                 <div className="lowe_screen">Save</div>
-              </ScrollLink>
-              <ScrollLink
+              </ScrollLink> */}
+              {/* <ScrollLink
                 activeClass="active"
                 to={getScrollToValue3()}
                 spy={true}
@@ -132,8 +132,8 @@ const NavBar = ({ step, setStep }) => {
                 onClick={invesrrt}
               >
                 <div className="lowe_screen">Invest </div>
-              </ScrollLink>
-              <ScrollLink
+              </ScrollLink> */}
+              {/* <ScrollLink
                 activeClass="active"
                 to={getScrollToValue4()}
                 spy={true}
@@ -144,9 +144,9 @@ const NavBar = ({ step, setStep }) => {
                 onClick={growwww}
               >
                 <div className="lowe_screen">Grow</div>
-              </ScrollLink>
+              </ScrollLink> */}
               <ScrollLink
-                activeClass="active"
+                activeClass="active "
                 to="waitlist"
                 spy={true}
                 smooth={true}
@@ -154,7 +154,7 @@ const NavBar = ({ step, setStep }) => {
                 duration={300}
                 style={{ textDecoration: 'none' }}
               >
-                <div className="lowe_screen holy">Join waitlist</div>
+                <div className="lowe_screen holy pt-3">Join waitlist</div>
               </ScrollLink>
             </Nav>
             <div className="but_Holder">

@@ -2,11 +2,6 @@ import React, { useState, useRef } from 'react';
 import fiv from './images/fiveus.png';
 import 'react-phone-number-input/style.css';
 import PhoneInput from 'react-phone-number-input';
-// import Input, {
-//   getCountries,
-//   getCountryCallingCode,
-// } from 'react-phone-number-input/input';
-// import countryNames from 'react-phone-number-input/locale/en';
 import emailjs from '@emailjs/browser';
 const WaitList = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
@@ -30,29 +25,91 @@ const WaitList = () => {
 
   const form = useRef();
 
-  const sendEmail = (e) => {
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   emailjs
+  //     .sendForm(
+  //       'service_o4ifcqj',
+  //       'template_agtires',
+  //       form.current,
+  //       'OQI2gNcn7IiuU3GNA'
+  //     )
+  //     .then(
+  //       (result) => {
+  //         setPhoneNumber('');
+
+  //         setLoading(false);
+  //         alert('you have been added to the waitlist');
+  //         sendConfirmationEmail();
+  //       },
+  //       (error) => {
+  //         alert(error.text);
+  //       }
+  //     );
+  // };
+  // const sendConfirmationEmail = () => {
+  //   emailjs
+  //     .send(
+  //       'service_o4ifcqj',
+  //       'template_p36zxdi',
+  //       {
+  //         to_name: fullname,
+  //         to_email: email,
+  //       },
+  //       'OQI2gNcn7IiuU3GNA'
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log('Confirmation email sent', result);
+  //         // setEmail('');
+  //         // setFullname('');
+  //       },
+  //       (error) => {
+  //         console.log('Failed to send confirmation email:', error);
+  //       }
+  //     );
+  // };
+
+  const sendEmail = async (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs
-      .sendForm(
+    try {
+      await emailjs.sendForm(
         'service_o4ifcqj',
         'template_agtires',
         form.current,
         'OQI2gNcn7IiuU3GNA'
-      )
-      .then(
-        (result) => {
-          setPhoneNumber('');
-          setEmail('');
-          setFullname('');
-          setLoading(false);
-          alert('you have been added to the waitlist');
-        },
-        (error) => {
-          alert(error.text);
-        }
       );
+      setPhoneNumber('');
+      setEmail('');
+      setFullname('');
+      setLoading(false);
+      alert('You have been added to the waitlist');
+      await sendConfirmationEmail();
+    } catch (error) {
+      alert(error.text);
+    }
   };
+
+  const sendConfirmationEmail = async () => {
+    try {
+      await emailjs.send(
+        'service_o4ifcqj',
+        'template_p36zxdi',
+        {
+          to_name: fullname,
+          to_email: email,
+        },
+        'OQI2gNcn7IiuU3GNA'
+      );
+      console.log('Confirmation email sent');
+    } catch (error) {
+      console.log('Failed to send confirmation email:', error);
+    }
+  };
+
+  const isButtonDisabled = !email || !phoneNumber || !fullname;
 
   return (
     <div>
@@ -117,10 +174,11 @@ const WaitList = () => {
               <div>
                 <div className="mb-4">
                   <button
-                    className="bububu"
+                    className={`bububu ${isButtonDisabled ? 'disabled' : ''}`}
                     onClick={validateEmail}
                     type="submit"
                     value="Send"
+                    disabled={isButtonDisabled}
                   >
                     {loading ? '  adding to waitlist' : 'Join Waitlist  '}
                   </button>
